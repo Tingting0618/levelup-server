@@ -9,4 +9,4 @@ https://dbdiagram.io/d/61b73ff78c901501c0edceee
 - The Game will also have a one to many relationship with Gamer because gamers can create more than one game.
 - The Event table will have a 1 to many relationship with Gamer, called the organizer, because gamers can host many events but an event will only have 1 host.
 - To keep track of who is attending events, there is a many to many relationship between gamers and events. There will need to be a join table to connect that many to many relationship. 
-![2022-01-15 20_33_25-level-up - dbdiagram io](https://user-images.githubusercontent.com/44503223/149644022-5fa7a925-9fb8-4e35-984c-c4ca4356ac83.png)
+![2022-01-15 20_33_25-level-up - dbdiagram io](https://user-images.githubusercontent.com/44503223/149644401-f994c3d5-c82f-41d5-a044-71a2b70d121d.png)
