@@ -12,3 +12,4 @@ class Event(models.Model):
     time = models.TimeField(null=True)
     description = models.CharField(max_length=50)
     attendees = models.ManyToManyField(Gamer,related_name='attending')
+    joined = models.BooleanField(null=True)
