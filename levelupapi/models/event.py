@@ -3,9 +3,10 @@ from levelupapi.models.game import Game
 from levelupapi.models.gamer import Gamer
 
 
+
 class Event(models.Model):
     game = models.ForeignKey(
-        Game, verbose_name="organizer", on_delete=models.SET_NULL, null=True)
+        Game, on_delete=models.CASCADE, related_name='events')
     organizer = models.ForeignKey(
         Gamer, verbose_name="organizer", on_delete=models.SET_NULL, null=True)
     date = models.DateField(null=True)
